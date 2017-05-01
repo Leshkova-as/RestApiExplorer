@@ -5,15 +5,15 @@ import javax.ws.rs.core.Application;
 import java.util.HashSet;
 import java.util.Set;
 
-//стартовая страница
+//start page
 @ApplicationPath("/")
-//основной ресурс и подключение к другим классам
+//main resource
 public class MyApplication extends Application{
-    //возвращает коллекцию непустых классов
+    //get class collection
     @Override
     public Set<Class<?>> getClasses() {
         HashSet h = new HashSet<Class<?>>();
-        h.add( JsonTest.class );
+        h.add( FileTree.class );
         return h;
     }
 }

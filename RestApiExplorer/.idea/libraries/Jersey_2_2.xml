@@ -13,6 +13,8 @@
       <root url="jar://$PROJECT_DIR$/lib/jackson-core-2.8.6.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jackson-databind-2.8.6.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/json-20160810.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsf-api-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/primefaces-5.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
